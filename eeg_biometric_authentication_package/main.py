@@ -1,14 +1,14 @@
 # Import necessary modules
-from eeg_biometric_authentication_package.data.loader import load_data
-from eeg_biometric_authentication_package.model.cnn_model import create_cnn_model
-from eeg_biometric_authentication_package.train_eval.trainer_evaluator import (
+from data.loader import load_data
+from model.cnn_model import create_cnn_model
+from train_eval.trainer_evaluator import (
     train_model,
     evaluate_model,
     predict_labels,
     calculate_subject_accuracies,
     generate_confusion_matrix
 )
-from eeg_biometric_authentication_package.utils.visualization import plot_confusion_matrix
+from utils.visualization import plot_confusion_matrix
 
 # Define parameters
 subjects = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
