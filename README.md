@@ -9,9 +9,9 @@ This Python package provides tools for biometric authentication of EEG (Electroe
 - **Visualization:** Visualize evaluation metrics such as accuracy and confusion matrix.
 
 ## Installation
-You can install the EEG Analysis Package using pip:
+You can install the EEG Biometric Authentication using pip:
 ```bash
-pip install eeg-analysis-package
+pip install eeg_biometric_authentication_package
 Usage
 Here's a basic example of how to use the package:
 
